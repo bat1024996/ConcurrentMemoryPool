@@ -1,0 +1,2 @@
+# ConcurrentMemoryPool
+将tcmalloc中最核心的框架简化出来，模拟实现一个mini版的高并发内存池。
