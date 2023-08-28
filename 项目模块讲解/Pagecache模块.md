@@ -1,6 +1,6 @@
 # Pagecache模块
 
-![](E:\projects uplode to GitHub\ConcurrentMemoryPool\项目模块讲解\pics\4.png)
+![4.png](https://img1.imgtp.com/2023/08/28/1NCLXnnP.png)
 
 central cache的映射规则与thread cache保持一致，而page cache的映射规则与它们都不相同。page cache的哈希桶映射规则采用的是直接定址法，比如1号桶挂的都是1页的span，2号桶挂的都是2页的span，以此类推。
 

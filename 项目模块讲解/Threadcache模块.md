@@ -7,7 +7,7 @@
 
   这时我们可以选择做一些平衡的牺牲，让这些字节数按照某种规则进行对齐，例如我们让这些字节数都按照8字节进行向上对齐，那么thread cache的结构就是下面这样的，此时当线程申请1-8字节的内存时会直接给出8字节，而当线程申请9~16字节的内存时会直接给出16字节，以此类推。
 
-![threadcache](E:\projects uplode to GitHub\ConcurrentMemoryPool\项目模块讲解\pics\2.png)
+![2.png](https://img1.imgtp.com/2023/08/28/dhs3yO0w.png)
 
 
 

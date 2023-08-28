@@ -15,7 +15,7 @@ central cache的结构与thread cache是一样的，它们都是哈希桶的结�
   central cache与thread cache的第二个不同之处就是，thread cache的每个桶中挂的是一个个切好的内存块，而central cache的每个桶中挂的是一个个的span。
 
 
-![centralcache](E:\projects uplode to GitHub\ConcurrentMemoryPool\项目模块讲解\pics\3.png)
+![3.png](https://img1.imgtp.com/2023/08/28/0WJtbYVW.png)
 
 
 
